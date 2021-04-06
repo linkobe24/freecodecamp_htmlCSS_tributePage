@@ -1,0 +1,168 @@
+
+
+body{
+    box-sizing: border-box;
+    background-color:#d8ebe4;
+    font-family: 'Mukta', sans-serif;
+    font-size: 10px;
+}
+html, body{
+    margin:0;
+    padding:0;
+    
+}
+.header{
+    text-align: right;
+    background-color:#282846 ;
+    margin-top: -10px;
+    padding-top: 0 ;
+}
+
+@media screen and (max-width:460px) {
+    .header{
+        text-align: center;
+    }
+    .nav li{
+        font-size: 1.1rem;
+    }
+
+    
+}
+.nav li{
+    display: inline;
+    font-weight: bold;
+}
+
+.nav a{   
+    padding: .5em .5em .1em .5em;
+    color:rgb(212, 121, 85);
+    text-decoration: none;  /*to get rid of the line below of an anchor element*/
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);  /*changing the color when the cursor is over the anchors */
+}
+
+#title-big{
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#title-subtitle{
+    font-size: 1.75rem;
+    text-align: center;
+    margin-top: -5px;
+}
+
+
+@media screen and (max-width:460px) {
+ #title-big{
+    font-size: 4rem;
+ }
+ #title-subtitle{
+    font-size: 1.25rem;
+ }
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+#img-div{
+    background: #f9f3f3;
+    padding: 10px;
+    margin: 0px;
+}
+#img-caption{
+    background: transparent;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+}
+
+@media screen and (max-width:460px) {
+    img{
+        min-width: 50%;
+    }
+    #img-caption{
+        font-size: 1rem;
+    }
+   }
+#tribute-lists{
+    display:flex;
+    justify-content: center;
+}
+
+li{
+    font-size: 1.5rem;
+}
+li B{
+    font-size: 1.5rem;
+} 
+
+@media screen and (max-width:460px) {
+    li{
+        font-size: 1rem;
+    }
+    li B{
+        font-size: 1rem;
+    } 
+}
+
+.tribute-headline{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#tribute-bio{
+    margin: 0 auto;
+    padding: 0 4em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.25;
+}
+
+
+@media screen and (max-width:460px) {
+    .tribute-headline{
+        font-size: 1rem;
+    }
+    
+    p{
+        font-size: 1rem;
+        line-height: 1.25;
+    }
+ 
+   }
+   
+
+#link{
+    font-size: 1.6rem;
+}
+#link a{
+    font-size: 1.6rem; 
+    color: #477ca7;
+}
+a:visited{
+    color: #74638f;
+}
+
+
+@media screen and (max-width:460px) {
+    #link{
+        font-size: 1rem;
+    }
+    #link a{
+        font-size: 1rem; 
+       
+    }
+   }
+
+
